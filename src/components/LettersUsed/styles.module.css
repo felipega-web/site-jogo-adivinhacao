@@ -16,3 +16,14 @@
   gap: 0.75rem;
   flex-wrap: wrap;
 }
+
+
+/*TABLET*/
+@media(min-width: 768px) and (max-width: 1024px){
+  /*códigos aqui*/
+}
+
+/*CELULAR*/
+@media(max-width: 767px){
+  /*códigos aqui*/
+}

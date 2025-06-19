@@ -8,7 +8,7 @@
 }
 
 .container main {
-  width: 50vw;
+  width: 60vw;
   background-color: #fff;
   padding: 2rem;
   padding-top: 4.5rem;
@@ -29,4 +29,18 @@
   display: flex;
   gap: 0.75rem;
   margin-top: 0.75rem;
+}
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container main {
+    width: 80vw;
+  }
+}
+
+/*CELULAR*/
+@media (max-width: 767px) {
+  .container main {
+    width: 90vw;
+  }
 }
